@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .box3 p{
+    width: 48%;
+    margin: 1%;
+  float: left;
+  }
+  .box3 img{
+    width: 48%;
+    margin: 1%;
+  float: left;
+  }
+  .box1{
+   display: flex;
+   margin: 10px;
+   gap: 10px;
+  }
+  .box1 img{
+    width: 50%;
+    height: 200px;
+  }
+  .box2 img{
+    width: 50%;
+    height: 200px; 
+  }
+  .box2{
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+  }
+  .box3{
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+  }
+  .box4{
+    display: flex;
+  }
+  @media(max-width:992px){
+    body{
+      background-color: lightblue;
+      width: 100%;
+    
+    }
+  .box4{
+    display: block;
+  }
+  
+  }
+  @media(max-width:500px){
+    body{
+      background-color: greenyellow;
+    }
+  }
